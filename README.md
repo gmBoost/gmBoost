@@ -19,8 +19,8 @@
                    ┌───────────────────────────────────┐
                    │            FeeManager             │
                    │  - ethFeeWei (GM fee)             │
-     Safe 2-of-3 ──►│  - ownerShareBps (split %)        │
-      (platform)    │  - deployFeeWei (deploy fee)      │
+    Safe 2-of-3 ──►│  - ownerShareBps (split %)        │
+     (platform)    │  - deployFeeWei (deploy fee)      │
                    │  - feeRecipient (treasury)        │
                    └───────────────┬───────────────────┘
                                    │ (read settings)
@@ -84,7 +84,6 @@ Deploys new user contracts and collects deployment fees.
 | **Slither Analysis** | 0 critical/high/medium findings |
 | **Solhint Analysis** | 0 errors/warnings |
 | **SolidityScan** | Score **93.69/100** (0 Critical/High; Medium/Low reviewed as design/operational) |
-| **Status** | ✅ Audit-ready |
 
 **Security Features:**
 - ✅ Solidity 0.8.30 (built-in overflow protection)
