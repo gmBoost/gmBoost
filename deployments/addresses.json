@@ -1,0 +1,14 @@
+{
+  "base-sepolia": {
+    "chainId": 84532,
+    "name": "Base Sepolia Testnet",
+    "deployedAt": "2025-10-24",
+    "contracts": {
+      "FeeManager": "0x7b537F25120E2FBDaeC76E0d685E81a5dD81BCe9",
+      "GmBoost": "0xd585415430479Ce6A4E648cc54D9f3cEebDEBB91",
+      "GmBoostFactory": "0x53382A810e46b69Ef95E25bBdfc986fa1Dba66Da"
+    },
+    "verified": true,
+    "explorer": "https://sepolia.basescan.org"
+  }
+}
