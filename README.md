@@ -1,4 +1,6 @@
-![gmBoost Logo](./documentation/gmboost-logo.png)
+<p align="center">
+  <img src="./documentation/gmboost-logo.png" alt="gmBoost Logo" width="400">
+</p>
 
 # gmBoost - On-Chain GM Contracts
 
