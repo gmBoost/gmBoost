@@ -1,5 +1,7 @@
 # gmBoost - On-Chain GM Contracts
 
+![gmBoost Logo](./documentation/gmboost-logo.png)
+
 [![Solidity 0.8.30](https://img.shields.io/badge/Solidity-0.8.30-blue)](https://soliditylang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
