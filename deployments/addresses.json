@@ -98,5 +98,80 @@
     },
     "verified": true,
     "explorer": "https://optimistic.etherscan.io"
+  },
+  "ink-mainnet": {
+    "chainId": 57073,
+    "name": "Ink Mainnet",
+    "deployedAt": "2025-12-03",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://explorer.inkonchain.com"
+  },
+  "soneium-mainnet": {
+    "chainId": 1868,
+    "name": "Soneium Mainnet",
+    "deployedAt": "2025-12-03",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://soneium.blockscout.com"
+  },
+  "unichain-mainnet": {
+    "chainId": 130,
+    "name": "Unichain Mainnet",
+    "deployedAt": "2025-12-03",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://uniscan.xyz"
   }
 }

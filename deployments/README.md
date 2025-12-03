@@ -36,7 +36,52 @@
 - **Treasury:** 0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8
 - **Status:** ✅ Live on Production
 
-**Note:** All mainnet deployments use the same contract addresses due to deterministic deployment.
+### Ink Mainnet (Production) 🟣
+
+| Contract | Address | Explorer |
+|----------|---------|----------|
+| **FeeManager** | `0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25` | [View on Ink Explorer](https://explorer.inkonchain.com/address/0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25) |
+| **GmBoost (Implementation)** | `0xC6781ee67Cc92569a7790D95D3A55750f221f6F3` | [View on Ink Explorer](https://explorer.inkonchain.com/address/0xC6781ee67Cc92569a7790D95D3A55750f221f6F3) |
+| **GmBoostFactory** | `0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B` | [View on Ink Explorer](https://explorer.inkonchain.com/address/0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B) |
+
+**Deployment Information:**
+- **Deployment Date:** December 3, 2025
+- **Chain ID:** 57073
+- **Owner:** 0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC
+- **Treasury:** 0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8
+- **Status:** ✅ Live on Production
+
+### Soneium Mainnet (Production) 🟠
+
+| Contract | Address | Explorer |
+|----------|---------|----------|
+| **FeeManager** | `0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25` | [View on Soneium Explorer](https://soneium.blockscout.com/address/0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25) |
+| **GmBoost (Implementation)** | `0xC6781ee67Cc92569a7790D95D3A55750f221f6F3` | [View on Soneium Explorer](https://soneium.blockscout.com/address/0xC6781ee67Cc92569a7790D95D3A55750f221f6F3) |
+| **GmBoostFactory** | `0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B` | [View on Soneium Explorer](https://soneium.blockscout.com/address/0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B) |
+
+**Deployment Information:**
+- **Deployment Date:** December 3, 2025
+- **Chain ID:** 1868
+- **Owner:** 0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC
+- **Treasury:** 0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8
+- **Status:** ✅ Live on Production
+
+### Unichain Mainnet (Production) 🦄
+
+| Contract | Address | Explorer |
+|----------|---------|----------|
+| **FeeManager** | `0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25` | [View on Uniscan](https://uniscan.xyz/address/0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25) |
+| **GmBoost (Implementation)** | `0xC6781ee67Cc92569a7790D95D3A55750f221f6F3` | [View on Uniscan](https://uniscan.xyz/address/0xC6781ee67Cc92569a7790D95D3A55750f221f6F3) |
+| **GmBoostFactory** | `0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B` | [View on Uniscan](https://uniscan.xyz/address/0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B) |
+
+**Deployment Information:**
+- **Deployment Date:** December 3, 2025
+- **Chain ID:** 130
+- **Owner:** 0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC
+- **Treasury:** 0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8
+- **Status:** ✅ Live on Production
+
+**Note:** Ink, Soneium, and Unichain use different contract addresses than Base/Optimism due to different deployer nonce.
 
 ### Production Configuration (All Mainnets)
 
