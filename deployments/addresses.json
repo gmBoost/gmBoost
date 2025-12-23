@@ -173,5 +173,321 @@
     },
     "verified": true,
     "explorer": "https://uniscan.xyz"
+  },
+  "mode-mainnet": {
+    "chainId": 34443,
+    "name": "Mode Mainnet",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://explorer.mode.network"
+  },
+  "arbitrum-mainnet": {
+    "chainId": 42161,
+    "name": "Arbitrum One",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x66c33aCe2D0C25B3F5Da9210F93b17D9168d1236",
+      "GmBoost": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoostFactory": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://arbiscan.io"
+  },
+  "zora-mainnet": {
+    "chainId": 7777777,
+    "name": "Zora",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://explorer.zora.energy"
+  },
+  "lisk-mainnet": {
+    "chainId": 1135,
+    "name": "Lisk",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://blockscout.lisk.com"
+  },
+  "ethereum-mainnet": {
+    "chainId": 1,
+    "name": "Ethereum Mainnet",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://etherscan.io"
+  },
+  "worldchain-mainnet": {
+    "chainId": 480,
+    "name": "World Chain",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://worldchain-mainnet.explorer.alchemy.com"
+  },
+  "superseed-mainnet": {
+    "chainId": 5330,
+    "name": "Superseed",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://explorer.superseed.xyz"
+  },
+  "linea-mainnet": {
+    "chainId": 59144,
+    "name": "Linea",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://lineascan.build"
+  },
+  "scroll-mainnet": {
+    "chainId": 534352,
+    "name": "Scroll",
+    "deployedAt": "2025-12-22",
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "18000000000000",
+      "gmFeeEth": "0.000018",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "18000000000000",
+      "deployFeeEth": "0.000018"
+    },
+    "verified": true,
+    "explorer": "https://scrollscan.com"
+  },
+  "celo-mainnet": {
+    "chainId": 42220,
+    "name": "Celo",
+    "deployedAt": "2025-12-23",
+    "nativeToken": {
+      "symbol": "CELO",
+      "name": "Celo",
+      "decimals": 18
+    },
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "420000000000000000",
+      "gmFeeNative": "0.42 CELO",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "420000000000000000",
+      "deployFeeNative": "0.42 CELO"
+    },
+    "verified": true,
+    "explorer": "https://celoscan.io"
+  },
+  "hyperevm-mainnet": {
+    "chainId": 999,
+    "name": "HyperEVM",
+    "deployedAt": "2025-12-23",
+    "nativeToken": {
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "decimals": 18
+    },
+    "contracts": {
+      "FeeManager": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoost": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactory": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "governance": {
+      "owner": "0xf3F860D86E8693FDC0fF92DEf673b41D2b1cE7aC",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeWei": "2000000000000000",
+      "gmFeeNative": "0.002 HYPE",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeWei": "2000000000000000",
+      "deployFeeNative": "0.002 HYPE"
+    },
+    "verified": true,
+    "explorer": "https://hyperevmscan.io"
+  },
+  "tempo-testnet": {
+    "chainId": 42429,
+    "name": "Tempo Testnet",
+    "deployedAt": "2025-12-23",
+    "variant": "erc20",
+    "contracts": {
+      "FeeManagerERC20": "0x6eBb63DeB7efdfF79615e8c3eA4BF2D38Ce77a25",
+      "GmBoostERC20": "0xC6781ee67Cc92569a7790D95D3A55750f221f6F3",
+      "GmBoostFactoryERC20": "0x129674A91Cbc4582e0dce1465665B1Abf21a6F7B"
+    },
+    "paymentToken": {
+      "address": "0x20c0000000000000000000000000000000000000",
+      "symbol": "pathUSD",
+      "decimals": 6
+    },
+    "governance": {
+      "owner": "0x2C10d40eCcC39Afe093045Cb416BffB904491D15",
+      "treasury": "0x2D91e0ED849782A8C6bdA99A2F4104497A1c81d8"
+    },
+    "configuration": {
+      "gmFeeAmount": "50000",
+      "gmFeeUsd": "0.05",
+      "ownerShareBps": 2000,
+      "ownerSharePercent": 20,
+      "platformSharePercent": 80,
+      "deployFeeAmount": "50000",
+      "deployFeeUsd": "0.05"
+    },
+    "verified": true,
+    "explorer": "https://explorer.testnet.tempo.xyz"
   }
 }
